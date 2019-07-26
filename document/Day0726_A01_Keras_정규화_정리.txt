@@ -1,11 +1,11 @@
 정규화
 
-1. Normalization
+1. Normalization, Standardzation
 - 데이터를 밀집하여 값의 범위를 축소하는 과정
 - 노이즈 데이터를 정리하기 위해 사용
 	활용 방식
-	- MinMaxScaler
-	- StandardScaler
+	- MinMaxScaler	 (Normalization)
+	- StandardScaler (Standardzation)
 	활용 예시
 	- 이미지 픽셀값 범위(0~255)를 MinMaxScaler를 사용해 0~1범위로 축소시키는 방식
 
